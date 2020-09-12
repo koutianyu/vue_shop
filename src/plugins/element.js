@@ -1,9 +1,10 @@
 import Vue from 'vue'
 //导入弹框提示组件
 import {Button,Form,FormItem,Message,Input,Container,Header,Aside,Main,Menu,Submenu,MenuItem,Breadcrumb,BreadcrumbItem,Card,Row,Col,
-        Table,TableColumn,Switch,Tooltip, Pagination,Dialog,MessageBox,Tag,Tree,Select,Option} from "element-ui";
+        Table,TableColumn,Switch,Tooltip, Pagination,Dialog,MessageBox,Tag,Tree,Select,Option,Cascader} from "element-ui";
 
 Vue.use(Option)
+Vue.use(Cascader)
 Vue.use(Select)
 Vue.use(Tree)
 Vue.use(Tag)
